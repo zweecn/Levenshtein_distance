@@ -1,8 +1,8 @@
 /*
- * FileName: Levenshten.h
+ * FileName: Levenshtein.h
  *
  * Author: Zhengwei
- * Last modified: 2012-7-8 22:27:39 [B000000008620Y]
+ * Last modified: 2012-7-8 23:21:12 [B000000008620Y]
  */
 
 #ifndef _LEVENSHTEN_H
@@ -10,16 +10,17 @@
 #include <string>
 using namespace std;
 
-class Levenshten
+class Levenshtein
 {
 	public:
-		Levenshten();
-		virtual ~Levenshten();
+		Levenshtein();
+		virtual ~Levenshtein();
 		int getDistance(string s1, string s2);
 		void test();
 	private:
 		int min(int a, int b, int c);
-		char *buf;
+		int **d;
+		const static int MAX_LEN;
 };
 
 #endif 

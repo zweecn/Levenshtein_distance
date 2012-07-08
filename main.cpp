@@ -2,7 +2,7 @@
  * FileName:
  *
  * Author: Zhengwei04
- * Last modified: 2012-7-8 22:35:03 [B000000008620Y]
+ * Last modified: 2012-7-8 23:29:23 [B000000008620Y]
  */
 
 #include <iostream>
@@ -10,7 +10,7 @@
 
 int main()
 {
-	Levenshten lev;
+	Levenshtein lev;
 	lev.test();
 	return 0;
 }
