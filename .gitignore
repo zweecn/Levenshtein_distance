@@ -12,6 +12,12 @@
 *.la
 *.a
 
+.*.sw[a-z]
+*.un~
+Session.vim
+
 *.swp
 .backup
+*.swo
 *.bak
+*.txt
